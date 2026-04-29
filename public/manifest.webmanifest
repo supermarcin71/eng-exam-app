@@ -1,0 +1,21 @@
+{
+  "name": "Eng Exam — Oral Practice",
+  "short_name": "Eng Exam",
+  "description": "Interactive practice for an English oral exam. 17 Q&A on Public Intelligence and UN Resilience.",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

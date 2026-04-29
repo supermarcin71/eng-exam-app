@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0F1530"/>
+    </linearGradient>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <!-- Glow blob in corner -->
+  <circle cx="380" cy="120" r="120" fill="#2563EB" opacity="0.35" filter="url(#glow)"/>
+  <circle cx="120" cy="400" r="100" fill="#22D3EE" opacity="0.30" filter="url(#glow)"/>
+  <!-- Speech-bubble + sound waves -->
+  <g filter="url(#glow)">
+    <!-- Bubble body -->
+    <path d="M 130 170 Q 130 130 170 130 L 342 130 Q 382 130 382 170 L 382 310 Q 382 350 342 350 L 230 350 L 175 395 L 175 350 Q 130 350 130 310 Z"
+          fill="url(#grad)" opacity="0.95"/>
+    <!-- Pacing markers inside bubble -->
+    <line x1="180" y1="200" x2="180" y2="225" stroke="#020617" stroke-width="6" stroke-linecap="round"/>
+    <line x1="218" y1="195" x2="218" y2="230" stroke="#020617" stroke-width="8" stroke-linecap="round"/>
+    <line x1="260" y1="200" x2="260" y2="225" stroke="#020617" stroke-width="6" stroke-linecap="round"/>
+    <line x1="298" y1="195" x2="298" y2="230" stroke="#020617" stroke-width="8" stroke-linecap="round"/>
+    <line x1="180" y1="265" x2="332" y2="265" stroke="#020617" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+    <line x1="180" y1="295" x2="280" y2="295" stroke="#020617" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+  </g>
+</svg>
