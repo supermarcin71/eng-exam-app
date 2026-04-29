@@ -7,8 +7,9 @@ import type { TabId } from "@/lib/types";
 
 const TABS: { id: TabId; label: string; short: string }[] = [
   { id: "warmup", label: "Warm-up", short: "Warm-up" },
-  { id: "part-1", label: "Part 1 · Marleku", short: "Part 1" },
+  { id: "part-1", label: "Part 1 · Public Intelligence", short: "Part 1" },
   { id: "part-2", label: "Part 2 · UN Resilience", short: "Part 2" },
+  { id: "written", label: "Written part · Past Tenses", short: "Written" },
   { id: "vocabulary", label: "Vocabulary", short: "Vocab" },
   { id: "tips", label: "Tips", short: "Tips" },
   { id: "dialogue", label: "Mock dialogue", short: "Mock" },

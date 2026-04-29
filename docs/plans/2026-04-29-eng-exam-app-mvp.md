@@ -2,7 +2,7 @@
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
 
-**Goal:** Build a polished interactive web app that lets a Polish student and a friend practice for an English oral exam by reading aloud through 17 Q&A pairs (Marleku article + UN Resilience), with hide/show answers, TTS pronunciation, focus reading mode, LocalStorage progress, and Linear/Vercel-style dark UI.
+**Goal:** Build a polished interactive web app that lets a Polish student and a friend practice for an English oral exam by reading aloud through 17 Q&A pairs (the Public Intelligence article + UN Resilience), with hide/show answers, TTS pronunciation, focus reading mode, LocalStorage progress, and Linear/Vercel-style dark UI.
 
 **Architecture:** Next.js 15 App Router with `output: 'export'` (full SSG), Tailwind CSS 4 + shadcn/ui, Zustand with `persist` middleware for state, Framer Motion animations. Single client-side page; tabs as state. Web Speech API for TTS. Auto-deploy to Vercel from `main` branch on GitHub.
 
@@ -319,7 +319,7 @@ Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>"
 
 **Step 1: Read source markdown**
 
-Read full content of `C:\Users\Tward\Desktop\STUDIA\Oral_Exam_Practice.md`. It contains 7 questions for Part 1 (Marleku) and 10 questions for Part 2 (UN Resilience), plus warm-up, vocabulary appendix, pre-exam tips, and mock dialogue.
+Read full content of `C:\Users\Tward\Desktop\STUDIA\Oral_Exam_Practice.md`. It contains 7 questions for Part 1 (the Public Intelligence) and 10 questions for Part 2 (UN Resilience), plus warm-up, vocabulary appendix, pre-exam tips, and mock dialogue.
 
 **Step 2: Write `src/lib/data.ts`**
 
@@ -1124,7 +1124,7 @@ import type { TabId } from "@/lib/types";
 
 const TABS: { id: TabId; label: string }[] = [
   { id: "warmup", label: "Warm-up" },
-  { id: "part-1", label: "Part 1 · Marleku" },
+  { id: "part-1", label: "Part 1 · the Public Intelligence" },
   { id: "part-2", label: "Part 2 · UN Resilience" },
   { id: "vocabulary", label: "Vocabulary" },
   { id: "tips", label: "Tips" },

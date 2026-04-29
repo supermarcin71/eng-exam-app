@@ -13,7 +13,7 @@ A polished, interactive web app that helps the user (and a friend) practice for 
 
 **Audience:** primary user + one friend (small private group, but content is shareable on a public URL).
 
-**Source content:** 17 Q&A pairs (7 about Marleku's *Public Intelligence as a Strategic Tool* article, 10 about UN Resilience Guidance) plus warm-up, vocabulary appendix, pre-exam tips, and mock dialogue. Already drafted in `STUDIA/Oral_Exam_Practice.md`.
+**Source content:** 17 Q&A pairs (7 about the *Public Intelligence as a Strategic Tool* article, 10 about UN Resilience Guidance) plus warm-up, vocabulary appendix, pre-exam tips, and mock dialogue. Already drafted in `STUDIA/Oral_Exam_Practice.md`.
 
 ---
 

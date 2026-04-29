@@ -6,7 +6,7 @@ import type {
 } from "./types";
 
 // ============================================================
-// PART 1 — Marleku article (Public Intelligence)
+// PART 1 — Public Intelligence article
 // 7 anticipated exam questions
 // ============================================================
 const PART_1: Question[] = [
@@ -16,9 +16,9 @@ const PART_1: Question[] = [
     number: 1,
     topicTag: "Overview",
     questionText:
-      "Could you summarize the main argument of Marleku's article?",
+      "Could you summarize the main argument of the article?",
     answer:
-      "Well, // the article by **Alfred Marleku** explores how states are now using **public intelligence** as a strategic tool. /// Essentially, // the author argues that we are seeing a **paradigm shift** — from secret, // classified statecraft toward open, // real-time disclosure. /// He focuses on the case of Ukraine in **2022**, // when the United States and the United Kingdom released intelligence about the Russian invasion before it happened. /// What's interesting is that this approach succeeded in shaping the global narrative, // but it failed to deter the actual invasion. /// So, to put it briefly, // Marleku presents public intelligence as both a powerful and a limited tool — // one that controls the story, // but does not always control the outcome. ///",
+      "Well, // the article explores how states are now using **public intelligence** as a strategic tool. /// Essentially, // the author argues that we are seeing a **paradigm shift** — from secret, // classified statecraft toward open, // real-time disclosure. /// The article focuses on the case of Ukraine in **2022**, // when the United States and the United Kingdom released intelligence about the Russian invasion before it happened. /// What's interesting is that this approach succeeded in shaping the global narrative, // but it failed to deter the actual invasion. /// So, to put it briefly, // the article presents public intelligence as both a powerful and a limited tool — // one that controls the story, // but does not always control the outcome. ///",
     targetSeconds: [50, 60],
     trickyWords: [
       {
@@ -62,7 +62,7 @@ const PART_1: Question[] = [
     questionText:
       "What does the author mean by 'public intelligence' or PUBINT, and how does it differ from traditional intelligence?",
     answer:
-      "Well, // public intelligence — sometimes called **PUBINT** — refers to the deliberate release of **declassified** information to the public. /// It is the opposite of traditional intelligence, // which is normally **covert** and kept inside government agencies. /// In fact, // Marleku stresses that PUBINT is not a leak. /// It is planned, // strategic, // and aimed at influencing **public opinion**, // deterring adversaries, // or shaping diplomatic discourse. /// For instance, // when CIA Director **William Burns** publicly disclosed Russian casualty figures, // that was a clear act of public intelligence. ///",
+      "Well, // public intelligence — sometimes called **PUBINT** — refers to the deliberate release of **declassified** information to the public. /// It is the opposite of traditional intelligence, // which is normally **covert** and kept inside government agencies. /// In fact, // the author stresses that PUBINT is not a leak. /// It is planned, // strategic, // and aimed at influencing **public opinion**, // deterring adversaries, // or shaping diplomatic discourse. /// For instance, // when **the CIA Director** publicly disclosed Russian casualty figures, // that was a clear act of public intelligence. ///",
     targetSeconds: [40, 50],
     trickyWords: [
       {
@@ -105,7 +105,7 @@ const PART_1: Question[] = [
     questionText:
       "What are the three strategic functions of public intelligence?",
     answer:
-      "Marleku identifies **three strategic functions** of public intelligence. /// First, // it works as a form of **deterrence** — by exposing an adversary's plans, // a state hopes to make aggression too costly to pursue. /// Second, // it serves as **diplomatic pressure**. /// When intelligence is shared with allies in real time, // it forces them to align their position and respond together. /// Third, // it acts as a **counter-narrative** — neutralizing disinformation by presenting verified facts. /// A clear example would be the way the **UK and the US** shared intelligence with hesitant European partners in late 2021. /// What's interesting is that the third function — narrative control — proved the most effective in the Ukraine case, // while deterrence largely failed. ///",
+      "The article identifies **three strategic functions** of public intelligence. /// First, // it works as a form of **deterrence** — by exposing an adversary's plans, // a state hopes to make aggression too costly to pursue. /// Second, // it serves as **diplomatic pressure**. /// When intelligence is shared with allies in real time, // it forces them to align their position and respond together. /// Third, // it acts as a **counter-narrative** — neutralizing disinformation by presenting verified facts. /// A clear example would be the way the **UK and the US** shared intelligence with hesitant European partners in late 2021. /// What's interesting is that the third function — narrative control — proved the most effective in the Ukraine case, // while deterrence largely failed. ///",
     targetSeconds: [50, 60],
     trickyWords: [
       {
@@ -149,7 +149,7 @@ const PART_1: Question[] = [
     questionText:
       "Compare the Iraq 2003 case with the Ukraine 2022 case. Why did one succeed where the other did not?",
     answer:
-      "Marleku presents these two cases as opposite models of public intelligence. /// In **Iraq 2003**, // intelligence was **orchestrated and politicized**. /// The Bush administration selectively declassified information to justify the invasion, // claiming Saddam Hussein possessed weapons of mass destruction. /// When no weapons were found, // the credibility of Western intelligence services collapsed for years. /// [breathe] In contrast, // the **Ukraine 2022** case shows a **strategic and real-time** model. /// The US and the UK released intelligence about Russian troop movements weeks before the invasion. /// **MI6 Director Richard Moore** even posted public statements on Twitter. /// What made this approach succeed was **honesty** — the warnings turned out to be accurate. /// On the other hand, // Iraq failed because the intelligence was shaped to fit a political goal. /// So, to put it briefly, // the difference is not the technique itself, // but whether the intelligence reflects reality or distorts it. ///",
+      "The article presents these two cases as opposite models of public intelligence. /// In **Iraq 2003**, // intelligence was **orchestrated and politicized**. /// The US administration at the time selectively declassified information to justify the invasion, // claiming the Iraqi regime possessed weapons of mass destruction. /// When no weapons were found, // the credibility of Western intelligence services collapsed for years. /// [breathe] In contrast, // the **Ukraine 2022** case shows a **strategic and real-time** model. /// The US and the UK released intelligence about Russian troop movements weeks before the invasion. /// **The MI6 Director** even posted public statements on Twitter. /// What made this approach succeed was **honesty** — the warnings turned out to be accurate. /// On the other hand, // Iraq failed because the intelligence was shaped to fit a political goal. /// So, to put it briefly, // the difference is not the technique itself, // but whether the intelligence reflects reality or distorts it. ///",
     targetSeconds: [70, 80],
     trickyWords: [
       {
@@ -198,7 +198,7 @@ const PART_1: Question[] = [
     topicTag: "Specific case — Israel",
     questionText: "What does the Israel 2023–2024 case add to the argument?",
     answer:
-      "The Israel case adds an important **third model** — what Marleku calls **selective and cautious** disclosure. /// Unlike Ukraine, // Israel chose to keep most of its intelligence classified during the conflict in Gaza. /// In fact, // operational sensitivities and the involvement of **hostages** limited what could be shared in public. /// What's interesting is that this case shows the **limits** of the PUBINT model. /// Public intelligence works well when the goal is to expose an aggressor, // but it works less well when the operating side itself wants to retain freedom of action. /// On the other hand, // it confirms that disclosure is always a **strategic choice**, // not a default. ///",
+      "The Israel case adds an important **third model** — what the article calls **selective and cautious** disclosure. /// Unlike Ukraine, // Israel chose to keep most of its intelligence classified during the conflict in Gaza. /// In fact, // operational sensitivities and the involvement of **hostages** limited what could be shared in public. /// What's interesting is that this case shows the **limits** of the PUBINT model. /// Public intelligence works well when the goal is to expose an aggressor, // but it works less well when the operating side itself wants to retain freedom of action. /// On the other hand, // it confirms that disclosure is always a **strategic choice**, // not a default. ///",
     targetSeconds: [40, 55],
     trickyWords: [
       {
@@ -241,7 +241,7 @@ const PART_1: Question[] = [
     questionText:
       "Why does the author conclude that public intelligence works for narrative control but is limited as deterrence?",
     answer:
-      "Well, // Marleku's main critique is that **deterrence requires fear**, // and fear depends on the credibility of consequences. /// In Ukraine, // the West publicly warned Russia about an upcoming invasion, // but Putin proceeded anyway. /// In fact, // the warnings did not change the cost calculation in Moscow. /// On the other hand, // **narrative control** worked very well. /// Western intelligence shaped the global perception of Russia as the aggressor // before the first shot was fired. /// What this means is that public intelligence is excellent at framing reality, // but it cannot replace traditional military or economic deterrence. /// So, // it is a tool of **communication**, // not coercion. ///",
+      "Well, // the main critique is that **deterrence requires fear**, // and fear depends on the credibility of consequences. /// In Ukraine, // the West publicly warned Russia about an upcoming invasion, // but the Russian leadership proceeded anyway. /// In fact, // the warnings did not change the cost calculation in the Kremlin. /// On the other hand, // **narrative control** worked very well. /// Western intelligence shaped the global perception of Russia as the aggressor // before the first shot was fired. /// What this means is that public intelligence is excellent at framing reality, // but it cannot replace traditional military or economic deterrence. /// So, // it is a tool of **communication**, // not coercion. ///",
     targetSeconds: [40, 55],
     trickyWords: [
       {
@@ -285,7 +285,7 @@ const PART_1: Question[] = [
     questionText:
       "How might these findings apply to your own field of study or to the security challenges Poland faces today?",
     answer:
-      "That's a really interesting question. /// From the perspective of **Poland's strategic situation**, // the lessons of Marleku's article are very practical. /// Poland sits on **NATO's eastern flank**, // close to the war in Ukraine and to Belarus. /// In fact, // Polish authorities have been actively sharing intelligence about Russian hybrid threats — // drone incursions, // sabotage, // and disinformation campaigns. /// What this article teaches us is that **transparency** can be a weapon of its own. /// By releasing information quickly and credibly, // a state can build alliance cohesion and weaken hostile narratives. /// On the other hand, // Poland must also remember Marleku's warning — public intelligence is not a substitute for hard power. /// So, // disclosure should support deterrence, // not replace it. ///",
+      "That's a really interesting question. /// From the perspective of **Poland's strategic situation**, // the lessons of this article are very practical. /// Poland sits on **NATO's eastern flank**, // close to the war in Ukraine and to Belarus. /// In fact, // Polish authorities have been actively sharing intelligence about Russian hybrid threats — // drone incursions, // sabotage, // and disinformation campaigns. /// What this article teaches us is that **transparency** can be a weapon of its own. /// By releasing information quickly and credibly, // a state can build alliance cohesion and weaken hostile narratives. /// On the other hand, // Poland must also remember the article's warning — public intelligence is not a substitute for hard power. /// So, // disclosure should support deterrence, // not replace it. ///",
     targetSeconds: [55, 70],
     trickyWords: [
       {
@@ -903,11 +903,11 @@ export const VOCABULARY_CLUSTERS: VocabCluster[] = [
 export const MOCK_DIALOGUE: DialogueLine[] = [
   {
     speaker: "examiner",
-    text: "Good afternoon. Could we begin with a short summary — what is Marleku's article actually about?",
+    text: "Good afternoon. Could we begin with a short summary — what is the article actually about?",
   },
   {
     speaker: "student",
-    text: "Well, // the article looks at how states are now using **public intelligence** as a strategic tool. /// In fact, // Marleku argues that we are seeing a **paradigm shift** from secret to open statecraft. /// He focuses on Ukraine in 2022, // when Western governments released intelligence in real time. /// What's interesting is that this approach controlled the narrative, // but it failed to deter the actual invasion. ///",
+    text: "Well, // the article looks at how states are now using **public intelligence** as a strategic tool. /// In fact, // the author argues that we are seeing a **paradigm shift** from secret to open statecraft. /// The article focuses on Ukraine in 2022, // when Western governments released intelligence in real time. /// What's interesting is that this approach controlled the narrative, // but it failed to deter the actual invasion. ///",
   },
   {
     speaker: "examiner",
@@ -927,7 +927,7 @@ export const MOCK_DIALOGUE: DialogueLine[] = [
   },
   {
     speaker: "examiner",
-    text: "Do you agree with Marleku's conclusion that disclosure cannot deter aggression?",
+    text: "Do you agree with the article's conclusion that disclosure cannot deter aggression?",
   },
   {
     speaker: "student",

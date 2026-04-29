@@ -11,9 +11,10 @@ import { useStore } from "@/lib/store";
 
 const SHORTCUTS = [
   { keys: ["?"], action: "Open this shortcuts panel" },
+  { keys: [","], action: "Open settings (speech rate)" },
   { keys: ["F"], action: "Reading mode for the question in view" },
   { keys: ["Esc"], action: "Close reading mode or modal" },
-  { keys: ["1", "2", "3", "4", "5", "6"], action: "Switch tabs" },
+  { keys: ["1", "2", "3", "4", "5", "6", "7"], action: "Switch tabs" },
 ];
 
 export function ShortcutsModal() {

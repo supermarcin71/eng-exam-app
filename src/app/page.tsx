@@ -11,10 +11,12 @@ import { StaticMarkdown } from "@/components/static-markdown";
 import { VocabClusterCard } from "@/components/vocab-cluster-card";
 import { MockDialogue } from "@/components/mock-dialogue";
 import { ProgressBar } from "@/components/progress-bar";
+import { WrittenSection } from "@/components/written-section";
 import { ReadingModeOverlay } from "@/components/reading-mode-overlay";
 import { ShortcutsModal } from "@/components/shortcuts-modal";
 import { WelcomeModal } from "@/components/welcome-modal";
 import { ReadingProgressBar } from "@/components/reading-progress-bar";
+import { SettingsPanel } from "@/components/settings-panel";
 import {
   QUESTIONS,
   WARMUP_SECTION,
@@ -48,9 +50,15 @@ export default function Home() {
     const tab = window.location.hash.replace("#", "");
     if (
       tab &&
-      ["warmup", "part-1", "part-2", "vocabulary", "tips", "dialogue"].includes(
-        tab
-      )
+      [
+        "warmup",
+        "part-1",
+        "part-2",
+        "written",
+        "vocabulary",
+        "tips",
+        "dialogue",
+      ].includes(tab)
     ) {
       useStore.getState().setActiveTab(tab as TabId);
     }
@@ -89,6 +97,7 @@ export default function Home() {
             {activeTab === "part-2" ? (
               <Part2Section questions={part2} done={part2Done} />
             ) : null}
+            {activeTab === "written" ? <WrittenSection /> : null}
             {activeTab === "vocabulary" ? <VocabularySection /> : null}
             {activeTab === "tips" ? <TipsSection /> : null}
             {activeTab === "dialogue" ? <DialogueSection /> : null}
@@ -100,6 +109,7 @@ export default function Home() {
 
       <ReadingModeOverlay />
       <ShortcutsModal />
+      <SettingsPanel />
       <WelcomeModal />
       <ShortcutsHint />
     </TooltipProvider>
@@ -135,8 +145,8 @@ function Part1Section({
     <>
       <SectionHeader
         eyebrow="Part 1 · 7 anticipated questions"
-        title="Marleku — Public Intelligence"
-        subtitle={`Anticipated questions on the article "Public Intelligence as a Strategic Tool" by Alfred Marleku (Security and Defence Quarterly, 2025).`}
+        title="Public Intelligence"
+        subtitle={`Anticipated questions on the article "Public Intelligence as a Strategic Tool: The Role of Real-Time Intelligence Disclosure" (Security and Defence Quarterly, 2025).`}
       />
       <ProgressBar done={done} total={questions.length} />
       <div className="space-y-6 md:space-y-8">
@@ -241,7 +251,7 @@ function Footer() {
   return (
     <footer className="no-print mt-20 mb-10 text-center px-6">
       <p className="text-xs text-text-tertiary">
-        Built for the oral exam with Prof. Mario · Read aloud, breathe, trust your preparation.
+        Built for oral exam practice · Read aloud, breathe, trust your preparation.
       </p>
       <p className="text-xs text-text-tertiary mt-1">
         <a
@@ -250,7 +260,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          github.com/supermarcin71/eng-exam-app
+          View source on GitHub
         </a>
       </p>
     </footer>

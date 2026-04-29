@@ -40,7 +40,8 @@ function inline(text: string, keyPrefix = ""): React.ReactNode[] {
     else if (t.startsWith("*"))
       out.push(
         <em key={k} className="italic text-text-secondary">
-          {t.slice(1, -1)}
+          {/* Recursively process pacing markers inside italics */}
+          {inline(t.slice(1, -1), `${k}-em`)}
         </em>
       );
     else if (t === "///")

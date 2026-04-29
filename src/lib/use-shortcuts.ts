@@ -8,9 +8,10 @@ const TAB_BY_KEY: Record<string, TabId> = {
   "1": "warmup",
   "2": "part-1",
   "3": "part-2",
-  "4": "vocabulary",
-  "5": "tips",
-  "6": "dialogue",
+  "4": "written",
+  "5": "vocabulary",
+  "6": "tips",
+  "7": "dialogue",
 };
 
 export function useShortcuts() {

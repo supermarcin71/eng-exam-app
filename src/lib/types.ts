@@ -52,6 +52,32 @@ export type TabId =
   | "warmup"
   | "part-1"
   | "part-2"
+  | "written"
   | "vocabulary"
   | "tips"
   | "dialogue";
+
+// ============================================================
+// Written Part — grammar drills
+// ============================================================
+export type ExerciseChoice = {
+  text: string;
+  correct: boolean;
+};
+
+export type Exercise = {
+  id: string;
+  category: "past-simple" | "past-continuous" | "past-perfect" | "mixed-tenses" | "transformation";
+  prompt: string;          // sentence with ___ for blank
+  choices?: ExerciseChoice[]; // for multiple-choice
+  acceptedAnswers?: string[]; // for gap-fill (case-insensitive match)
+  explanation: string;     // shown after answering
+  hint?: string;
+};
+
+export type ExerciseSet = {
+  id: string;
+  title: string;
+  description: string;
+  exercises: Exercise[];
+};

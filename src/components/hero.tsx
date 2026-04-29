@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Keyboard, Mic2, BookOpen } from "lucide-react";
+import { Keyboard, Mic2, BookOpen, PenLine } from "lucide-react";
+import { TOTAL_WRITTEN_EXERCISES } from "@/lib/written-data";
 
 export function Hero() {
   return (
@@ -32,8 +33,8 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="mt-6 text-lg md:text-xl text-text-secondary max-w-2xl mx-auto leading-relaxed"
         >
-          Seventeen questions on Public Intelligence and UN Resilience —
-          designed to be read aloud, repeatedly, until the rhythm sticks.
+          Seventeen oral questions plus a Past-Tenses written part —
+          designed to be read aloud, drilled, repeated until the rhythm sticks.
         </motion.p>
 
         <motion.div
@@ -42,7 +43,11 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="mt-10 flex flex-wrap items-center justify-center gap-3 md:gap-4"
         >
-          <Stat icon={<Mic2 className="w-4 h-4" />} label="17 questions" />
+          <Stat icon={<Mic2 className="w-4 h-4" />} label="17 oral Qs" />
+          <Stat
+            icon={<PenLine className="w-4 h-4" />}
+            label={`${TOTAL_WRITTEN_EXERCISES} written drills`}
+          />
           <Stat icon={<BookOpen className="w-4 h-4" />} label="2 topics" />
           <Stat icon={<Keyboard className="w-4 h-4" />} label="Press ? for keys" />
         </motion.div>

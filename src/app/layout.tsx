@@ -19,7 +19,6 @@ export const metadata: Metadata = {
   description:
     "Interactive practice for an English oral exam. 17 Q&A on Public Intelligence and UN Resilience. Read aloud, hide answers, listen to pronunciation.",
   applicationName: "Eng Exam App",
-  authors: [{ name: "supermarcin71" }],
   keywords: [
     "english",
     "oral exam",

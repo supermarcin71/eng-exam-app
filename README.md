@@ -2,15 +2,15 @@
 
 Interactive web app for practicing an English oral exam by reading aloud through structured Q&A material.
 
-**Topics:** Public Intelligence (Marleku, 2025) + UN Resilience Guidance.
+**Topics:** Public Intelligence (Security and Defence Quarterly, 2025) + UN Resilience Guidance.
 
-## Status
+## Live
 
-🚧 Scaffolding in progress. See [`docs/plans/2026-04-29-eng-exam-app-design.md`](docs/plans/2026-04-29-eng-exam-app-design.md) for the design document.
+https://eng-exam-app.vercel.app/
 
 ## Stack
 
-- Next.js 15 (App Router, static export)
+- Next.js 16 (App Router, static export)
 - TypeScript
 - Tailwind CSS 4
 - shadcn/ui components
